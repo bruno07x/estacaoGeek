@@ -6,6 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=BioRhyme|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=BioRhyme|Montserrat");
 html {
   line-height: 1.15;
   /* 1 */
@@ -10480,6 +10482,14 @@ code, .code {
 
 .bg_grayScale--darker {
   background-color: #0D0A0C;
+}
+
+.f_header {
+  font-family: "BioRhyme", serif;
+}
+
+.f_body {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
