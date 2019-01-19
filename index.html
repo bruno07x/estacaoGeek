@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Estação geek - sua luderia em Atibaia</title>
-    <link rel="stylesheet" href="CSS/main.scss">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
+
 <body>
-    <nav>
-        <div>
-            <img src="IMG/logo/logo.png" alt="[Logo estação geek luderia]" title="Logo estação geek luderia">
+    <nav class="bg--linear1">
+        <div class="flex items-center justify-between">
+            <div>
+                <img class="mw3 pl4" src="IMG/logo/logo.png" alt="[Logo estação geek luderia]" title="Logo estação geek luderia">
+            </div>
+            <div class="container pr5">
+                <div class="stick stick-1"></div>
+                <div class="stick stick-2"></div>
+                <div class="stick stick-3"></div>
+            </div>
         </div>
-        <ul>
-            <li>Jogos</li>
-            <li>Cardapio</li>
-            <li>A casa</li>
-            <li>Programação</li>
-            <li>Sorteios</li>
-        </ul>
+        <div class="menuDisable">
+            <ul class="flex justify-end pr4 bg--linear2">
+                <li class="list pa2">Jogos</li>
+                <li class="list pa2">Cardapio</li>
+                <li class="list pa2">A casa</li>
+                <li class="list pa2">Programação</li>
+                <li class="list pa2">Sorteios</li>
+            </ul>
+        </div>
     </nav>
+    <header>
+        <div class="relative">
+            <img src="IMG/img-capa.jpg" alt="[Imagem de capa, rolando os dados]" title="Imagem de capa, rolando os dados">
+            <div class="dib absolute bottom-2 tc w-100">
+                    <h1 class="brandColor--lighter self-center">Lorem ipsum dolor sit amet</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article class="pa5">
+            <p class="">R. Prof. Pedro de Vasconcelos, 73, Alvinópolis, Atibaia - SP</p>
+            <p class="">(11) 2427-8869</p>
+            <p class="">Na rua atrás do picanha da tabua</p>
+        </article>
+        <article class="flex justify-around">
+            <div class="fl">
+                    <p>Terça à Quinta</p>
+                    <p>Terça à Quinta</p>
+            </div>
+            <div class="fl">
+                <p>18:00 - 00:00</p>
+                <p>18:00 - 00:00</p>
+            </div>
+        </article>
+        <article>
+            <div>
+                <span class="bg_whiteScale--darker">Basic</span>
+                <div class="bg_whiteScale--regular">
+                    <small>R$</small>
+                    <p>15,00</p>
+                    <ul>
+                        <li>Day use</li>
+                        <li>100% em consumação</li>
+                        <li>+ de 100 títulos</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
 </body>
+
 </html>

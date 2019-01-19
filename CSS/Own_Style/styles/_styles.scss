@@ -1,0 +1,42 @@
+@import 'variables.scss';
+//Backgrounds linear
+.bg--linear1{
+    background-image: linear-gradient(to bottom right, $whiteScale--lighter, $whiteScale--regular);
+}
+.bg--linear2{
+    background-image: linear-gradient(to bottom right, $secundary--lighter, $secundary--light);
+}
+//Colors
+.brandColor--regular { color: $brandColor--regular;} 
+.brandColor--light {color: $brandColor--light}
+.brandColor--lighter {color: $brandColor--lighter}
+.brandColor--dark{color: $brandColor--dark}
+.brandColor--darker{color: $brandColor--darker}
+.secundary--regular{color: $secundary--regular}
+.secundary--light{color: $secundary--light}
+.secundary--lighter{color: $secundary--lighter}
+.secundary--dark{color: $secundary--dark}
+.secundary--darker{color: $secundary--darker}
+.whiteScale--regular{color: $whiteScale--regular}
+.whiteScale--lighter{color: $whiteScale--lighter}
+.whiteScale--darker{color: $whiteScale--darker}
+.grayScale--regular{color: $grayScale--regular}
+.grayScale--lighter{color: $grayScale--lighter}
+.grayScale--darker{color: $grayScale--darker}
+//bg
+.bg_brandColor--regular { background-color: $brandColor--regular;} 
+.bg_brandColor--light {background-color: $brandColor--light}
+.bg_brandColor--lighter {background-color: $brandColor--lighter}
+.bg_brandColor--dark{background-color: $brandColor--dark}
+.bg_brandColor--darker{background-color: $brandColor--darker}
+.bg_secundary--regular{background-color: $secundary--regular}
+.bg_secundary--light{background-color: $secundary--light}
+.bg_secundary--lighter{background-color: $secundary--lighter}
+.bg_secundary--dark{background-color: $secundary--dark}
+.bg_secundary--darker{background-color: $secundary--darker}
+.bg_whiteScale--regular{background-color: $whiteScale--regular}
+.bg_whiteScale--lighter{background-color: $whiteScale--lighter}
+.bg_whiteScale--darker{background-color: $whiteScale--darker}
+.bg_grayScale--regular{background-color: $grayScale--regular}
+.bg_grayScale--lighter{background-color: $grayScale--lighter}
+.bg_grayScale--darker{background-color: $grayScale--darker}
