@@ -1,4 +1,13 @@
 @import 'variables.scss';
+//Separador
+.separador_down::after{
+    content: "";
+    display: block;
+    margin-top: 0.45rem;
+    height: 3px;
+    width: 100%;
+    background: $brandColor--regular;
+}
 //Backgrounds linear
 .bg--linear1{
     background-image: linear-gradient(to bottom right, $whiteScale--lighter, $whiteScale--regular);
@@ -43,3 +52,5 @@
 //Typograph
 .f_header{font-family: $f_header;}
 .f_body{font-family: $f_body;}
+//Scale
+.my__testes{width: 16px; height: 16px;}
