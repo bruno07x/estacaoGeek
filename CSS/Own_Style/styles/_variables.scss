@@ -18,6 +18,13 @@ $grayScale--regular: #252324;
 $grayScale--lighter: #565154;
 $grayScale--darker: #0D0A0C;
 //Typograph
-@import url('https://fonts.googleapis.com/css?family=BioRhyme|Montserrat');
-$f_header:'BioRhyme', serif;
-$f_body:'Montserrat', sans-serif;
+@font-face{
+  font-family: Exo;
+  src: url(../FONT/exo/Exo-Regular.ttf);
+}
+@font-face{
+  font-family: Alba matter;
+  src: url(../FONT/alba/ALBA____.TTF);
+}
+$f_header:'Alba matter';
+$f_body: 'Exo';

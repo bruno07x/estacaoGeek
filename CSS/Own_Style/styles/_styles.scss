@@ -2,9 +2,10 @@
 //Separador
 .separador_down::after{
     content: "";
-    display: block;
+    display: inline-block;
+    text-align: left;
     margin-top: 0.45rem;
-    height: 3px;
+    height: 1px;
     width: 100%;
     background: $brandColor--regular;
 }
