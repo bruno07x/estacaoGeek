@@ -4,8 +4,7 @@
     content: "";
     display: inline-block;
     text-align: left;
-    margin-top: 0.45rem;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background: $brandColor--regular;
 }
@@ -50,6 +49,7 @@
 .bg_grayScale--regular{background-color: $grayScale--regular}
 .bg_grayScale--lighter{background-color: $grayScale--lighter}
 .bg_grayScale--darker{background-color: $grayScale--darker}
+.bg_opaco{background: rgba($grayScale--darker, $transparencia)}
 //Typograph
 .f_header{font-family: $f_header;}
 .f_body{font-family: $f_body;}
