@@ -40,19 +40,19 @@
   
   @keyframes stick-1-open {
     0%   {width: $larguraMenu;}
-    40%  {background-color: $brandColor--regular; width: 8px; transform: translate(40px, 0px);}
+    40%  {background-color: $primary--regular; width: 8px; transform: translate(40px, 0px);}
     75%, 80%  {width: 8px; transform: translate(40px, -50px); animation-timing-function: cubic-bezier(0,1,1,1);}
-    100% {background-color: $brandColor--regular; width: 8px; transform: translate(23px, 33px); opacity: 0;}
+    100% {background-color: $primary--regular; width: 8px; transform: translate(23px, 33px); opacity: 0;}
   }
   
   @keyframes stick-2-open {
     80%  {background-color: $secundary--darker; transform: translate(0px, 0px) rotate(0deg);}
-    100% {background-color: $brandColor--regular; transform: translate(5px, -5px) rotate(40deg);}
+    100% {background-color: $primary--regular; transform: translate(5px, -5px) rotate(40deg);}
   }
   
   @keyframes stick-3-open {
     80%  {background-color: $secundary--darker; transform: translate(0px, 0px) rotate(0deg);}
-    100% {background-color: $brandColor--regular; transform: translate(5px, -24px) rotate(-40deg);}
+    100% {background-color: $primary--regular; transform: translate(5px, -24px) rotate(-40deg);}
   }
   
   .stick-1.close {
@@ -77,8 +77,8 @@
   }
   
   @keyframes stick-2-close {
-    0%   {background-color: $brandColor--regular; width: $larguraMenu;}
-    20%  {background-color: $brandColor--regular; width: 8px; transform: translate(0, 0px) rotate(40deg);}
+    0%   {background-color: $primary--regular; width: $larguraMenu;}
+    20%  {background-color: $primary--regular; width: 8px; transform: translate(0, 0px) rotate(40deg);}
     40%  {background-color: $secundary--darker; width: 0px;}
     65%  {transform: translate(0, -70px); animation-timing-function: cubic-bezier(0,1,1,1);}
     80%  {width: 0px;}
@@ -86,8 +86,8 @@
   }
   
   @keyframes stick-3-close {
-    0%   {background-color: $brandColor--regular; width: $larguraMenu;}
-    20%  {background-color: $brandColor--regular; width: 8px; transform: translate(0, -23px) rotate(-40deg);}
+    0%   {background-color: $primary--regular; width: $larguraMenu;}
+    20%  {background-color: $primary--regular; width: 8px; transform: translate(0, -23px) rotate(-40deg);}
     40%  {background-color: $secundary--darker;}
     65%  {transform: translate(0, -93px); animation-timing-function: cubic-bezier(0,1,1,1);}
     90%  {width: 8px;}

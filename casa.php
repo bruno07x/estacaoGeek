@@ -18,35 +18,32 @@
     <div class="relative">
       <img src="IMG/img-subCapa.jpg" alt="[Imagem de sub-cap, dados]" title="Imagem de sub-cap, dados">
       <div class="dib absolute bottom-2 tc w-100">
-        <h1 class="brandColor--lighter self-center f_header f1">Lorem ipsum dolor sit amet</h1>
+        <h1 class="primary--lighter self-center f_header f1">Lorem ipsum dolor sit amet</h1>
       </div>
     </div>
   </header>
   <!-- INFORMACOES SOBRE A CASA -->
   <section class="flex flex-column">
-    <p class="f_body lh-copy ph3 f4 mb5">
+    <p class="f_body grayScale--regular lh-copy ph3 f4 mb5">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie leo scelerisque enim dapibus
       ullamcorper.Mauris faucibus, orci nec iaculis ultrices
     </p>
     <!-- SLIDES -->
-    <div class="slideshow-container">
+    <div class="slideshow-container relative top-0">
       <div class="mySlides fade">
-        <div class="absolute top-1 whiteScale--regular bg_opaco f_body f6 ml3 pa2">1 / 3</div>
-        <img src="IMG/slide/example1.jpg" style="width:100%">
-        <div class="absolute bottom-1 tc w-100 pa2 whiteScale--regular bg_opaco f_header f3">Lorem ipsum dolor</div>
+        <img src="IMG/slide/example1.jpg" class="w-100">
+        <div class="absolute bottom-1 tc w-100 pa2 primary--darker bg_opaco f_header f3">Lorem ipsum dolor</div>
       </div>
       <div class="mySlides fade">
-        <div class="absolute top-1 whiteScale--regular bg_opaco f_body f6 ml3 pa2">2 / 3</div>
-        <img src="IMG/slide/example2.jpg" style="width:100%">
-        <div class="absolute bottom-1 tc w-100 pa2 whiteScale--regular bg_opaco f_header f3">Lorem ipsum dolor</div>
+        <img src="IMG/slide/example2.jpg" class="w-100">
+        <div class="absolute bottom-1 tc w-100 pa2 primary--darker bg_opaco f_header f3">Lorem ipsum dolor</div>
       </div>
       <div class="mySlides fade">
-        <div class="absolute top-1 whiteScale--regular bg_opaco f_body f6 ml3 pa2">3 / 3</div>
-        <img src="IMG/slide/example3.jpg" style="width:100%">
-        <div class="absolute bottom-1 tc w-100 pa2 whiteScale--regular bg_opaco f_header f3">Lorem ipsum dolor</div>
+        <img src="IMG/slide/example3.jpg" class="w-100">
+        <div class="absolute bottom-1 tc w-100 pa2 primary--darker bg_opaco f_header f3">Lorem ipsum dolor</div>
       </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <a class="prev bg_opaco" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next bg_opaco" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
   </section>

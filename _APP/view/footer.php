@@ -1,5 +1,5 @@
 <!-- FOOTER DO PROJETO -->
-<footer class="bg--linear2 pv4 flex flex-column justify-center">
+<footer class="bg--gradientSecundary pv4 flex flex-column justify-center">
         <span class="tc f_header f2 whiteScale--regular pb3">Siga-nos nas redes sociais</span>
         <ul class="flex justify-around ph3">
             <li class="list"><a href="https://www.facebook.com/estacaogeekbg/">

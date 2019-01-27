@@ -1,0 +1,10 @@
+@import 'variables.scss';
+//Separador
+.separador_down::after{
+    content: "";
+    display: inline-block;
+    text-align: left;
+    height: 2px;
+    width: 100%;
+    background: $primary--regular;
+}

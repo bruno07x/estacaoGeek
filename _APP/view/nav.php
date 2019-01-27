@@ -1,5 +1,5 @@
 <!-- NAVEGACAO -->
-<nav class="bg--linear1">
+<nav class="bg--gradientWhite">
     <!-- MENU HAMBURGUER -->
     <div class="flex items-center justify-between">
         <div>

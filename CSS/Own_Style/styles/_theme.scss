@@ -1,26 +1,20 @@
 @import 'variables.scss';
-//Separador
-.separador_down::after{
-    content: "";
-    display: inline-block;
-    text-align: left;
-    height: 2px;
-    width: 100%;
-    background: $brandColor--regular;
-}
 //Backgrounds linear
-.bg--linear1{
+.bg--gradientWhite{
     background-image: linear-gradient(to bottom right, $whiteScale--lighter, $whiteScale--regular);
 }
-.bg--linear2{
-    background-image: linear-gradient(to bottom right, $secundary--lighter, $secundary--light);
+.bg--gradientSecundary{
+    background-image: linear-gradient(to bottom right, $secundary--light, $secundary--regular);
+}
+.bg--gradientPrimary{
+    background-image: linear-gradient(to bottom right, $primary--light, $primary--regular);
 }
 //Colors
-.brandColor--regular { color: $brandColor--regular;} 
-.brandColor--light {color: $brandColor--light}
-.brandColor--lighter {color: $brandColor--lighter}
-.brandColor--dark{color: $brandColor--dark}
-.brandColor--darker{color: $brandColor--darker}
+.primary--regular { color: $primary--regular;} 
+.primary--light {color: $primary--light}
+.primary--lighter {color: $primary--lighter}
+.primary--dark{color: $primary--dark}
+.primary--darker{color: $primary--darker}
 .secundary--regular{color: $secundary--regular}
 .secundary--light{color: $secundary--light}
 .secundary--lighter{color: $secundary--lighter}
@@ -33,11 +27,11 @@
 .grayScale--lighter{color: $grayScale--lighter}
 .grayScale--darker{color: $grayScale--darker}
 //bg
-.bg_brandColor--regular { background-color: $brandColor--regular;} 
-.bg_brandColor--light {background-color: $brandColor--light}
-.bg_brandColor--lighter {background-color: $brandColor--lighter}
-.bg_brandColor--dark{background-color: $brandColor--dark}
-.bg_brandColor--darker{background-color: $brandColor--darker}
+.bg_primary--regular { background-color: $primary--regular;} 
+.bg_primary--light {background-color: $primary--light}
+.bg_primary--lighter {background-color: $primary--lighter}
+.bg_primary--dark{background-color: $primary--dark}
+.bg_primary--darker{background-color: $primary--darker}
 .bg_secundary--regular{background-color: $secundary--regular}
 .bg_secundary--light{background-color: $secundary--light}
 .bg_secundary--lighter{background-color: $secundary--lighter}
@@ -49,9 +43,4 @@
 .bg_grayScale--regular{background-color: $grayScale--regular}
 .bg_grayScale--lighter{background-color: $grayScale--lighter}
 .bg_grayScale--darker{background-color: $grayScale--darker}
-.bg_opaco{background: rgba($grayScale--darker, $transparencia)}
-//Typograph
-.f_header{font-family: $f_header;}
-.f_body{font-family: $f_body;}
-//Scale
-.eventosScale{height: 12em;}
+.bg_opaco{background: rgba($whiteScale--regular, $transparencia)}
