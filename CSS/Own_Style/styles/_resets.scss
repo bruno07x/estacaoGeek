@@ -1,0 +1,6 @@
+@import'variables.scss';
+
+input::placeholder{
+  color: $grayScale--lighter;
+  padding-left: 1rem;
+}
