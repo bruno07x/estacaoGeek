@@ -1,0 +1,98 @@
+/* Cores */
+.primaria-1 {
+	background: #FFAB85;
+}
+.primaria-2 {
+	background: #FF8F5C;
+}
+.primaria-3 {
+	background: #EF6E35;
+}
+.primaria-4 {
+	background: #D04D11;
+}
+.primaria-5 {
+	background: #A43503;
+}
+.secundaria-1 {
+	background: #6ACAA6;
+}
+.secundaria-2 {
+	background: #40B086;
+}
+.secundaria-3 {
+	background: #24A172;
+}
+.secundaria-4 {
+	background: #0B8C5B;
+}
+.secundaria-5 {
+	background: #026F46;
+}
+.grayScale-1{
+	background: #565154;
+}
+.grayScale-2{
+	background: #252324;
+}
+.grayScale-3{
+	background: #0D0A0C;
+}
+.whiteScale-1{
+	background: #FFFFFC;
+}
+.whiteScale-2{
+	background: #F2F1E7;
+}
+.whiteScale-3{
+	background: #CCCAB7;
+}
+/* Tipografia */
+@font-face{
+	font-family: 'Vinque';
+	src: url("vinque.ttf");
+}
+@font-face{
+	font-family: 'Exo';
+	src: url('Exo-regular.ttf');
+}
+.titulo-1, .titulo-2, .titulo-3  {
+	font-family: 'Vinque';
+}
+.titulo-1 {
+	color: #FFAB85;
+}
+.titulo-2{
+	color: #EF6E35;
+}
+.titulo-3{
+	color: #A43503;
+}
+.corpo-1 p, .corpo-2 p, .corpo-3 p, .corpo-4 p {
+	font-family: 'Exo';
+	color: #252324;
+}
+.corpo-1 p{
+	color: #252324;
+}
+.corpo-2 p{
+	color: #252324;
+}
+.corpo-3 p{
+	color: #565154;
+}
+.corpo-4 p{
+	color: #565154;
+}
+/* Botões e Links */
+.btn-primario a {
+	font-family: 'vinque';
+	color: #FFFFFC;
+	background-color: #EF6E35;
+}
+.btn-primario a:hover {
+	background: #FFFFFC;
+	color: #EF6E35;
+	border: solid 2px #EF6E35;
+	box-shadow: none;
+}

@@ -18,7 +18,7 @@
             <li class="list ma2 f_body br2"><a href="" class="no-underline pa2 grayScale--regular">Cardapio</a></li>
             <li class="list ma2 f_body br2"><a href="casa.php" class="no-underline pa2 grayScale--regular">Casa</a></li>
             <li class="list ma2 f_body br2"><a href="programacao.php" class="no-underline pa2 grayScale--regular">Programação</a></li>
-            <li class="list ma2 f_body br2"><a href="" class="no-underline pa2 grayScale--regular">Sorteios</a></li>
+            <li class="list ma2 f_body br2"><a href="sorteios.php" class="no-underline pa2 grayScale--regular">Sorteios</a></li>
         </ul>
     </div>
 </nav>
