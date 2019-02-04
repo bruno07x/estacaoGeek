@@ -30,10 +30,10 @@
     <section class="mb5 flex flex-column">
         <div class="flex-l items-center pv4">
             <!-- ENDERECO E TELEFONE -->
-            <article class="ph3 w-50-l">
-                <p class="f_body grayScale--regular mb0">R. Prof. Pedro de Vasconcelos, 73, Alvinópolis, Atibaia - SP</p>
-                <sub class="f_body grayScale--regular">Na rua atrás do Picanha da Tabua</sub>
-                <a class="" href="https://goo.gl/maps/PeMQaLP2vjy">
+            <article class="ph3 w-50-l flex flex-column justify-between h4">
+                <p class="f_body grayScale--regular mb0">
+                    R. Prof. Pedro de Vasconcelos, 73, Alvinópolis, Atibaia - SP <br><sub class="f_body grayScale--regular">Na rua atrás do Picanha da Tabua</sub>
+                    <a class="" href="https://goo.gl/maps/PeMQaLP2vjy">
                     <svg class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                         xml:space="preserve" width="1.5rem" height="1.5rem">
@@ -60,17 +60,24 @@
                         <g></g>
                     </svg>
                 </a>
+                </p>
                 <p class="f_body grayScale--regular mb0">(11) 2427-8869</p>
             </article>
             <!-- HORARIOS DE FUNCIONAMENTO -->
-            <article class="flex justify-around mt5-m ph3 w-50-l">
+            <article class="flex justify-around mt5 ph3 w-50-l">
                 <div class="fl w-50">
-                    <p class="f_body grayScale--regular separador_down ma0">Terça à Quinta</p>
-                    <p class="f_body grayScale--regular separador_down mt2">Terça à Quinta</p>
+                    <p class="f_body grayScale--regular separador_down ma0">Terça</p>
+                    <p class="f_body grayScale--regular separador_down ma0">Quarta</p>
+                    <p class="f_body grayScale--regular separador_down ma0">Quinta</p>
+                    <p class="f_body grayScale--regular separador_down ma0">Sexta</p>
+                    <p class="f_body grayScale--regular separador_down ma0">Sábado e Domingo</p>
                 </div>
                 <div class="fl w-50 tr">
                     <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
-                    <p class="f_body grayScale--regular separador_down mt2">18:00 - 00:00</p>
+                    <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
+                    <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
+                    <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
+                    <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
                 </div>
             </article>
         </div>
