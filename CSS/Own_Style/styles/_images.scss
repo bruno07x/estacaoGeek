@@ -1,4 +1,18 @@
 @import 'variables.scss';
+// IMAGENS BACKGROUND
+.backgroundMain{
+  background: url('../IMG/img-capa.jpg');
+  background-size: 100%;
+  // background-position: 50% 30%;
+  background-repeat: no-repeat;
+  height: 35vh;
+  @media screen and (min-width: 600px) {
+    height: 50vh;
+  }
+  @media screen and (min-width: 1000px) {
+    height: 75vh;
+  }
+}
 .mySlides {display: none}
 img {vertical-align: middle;}
 

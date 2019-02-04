@@ -15,63 +15,66 @@
 
     <!-- WELCOME DO SITE -->
     <header>
-        <div class="relative flex flex-column items-center">
-            <img src="IMG/img-capa.jpg" alt="[Imagem de capa, rolando os dados]" title="Imagem de capa, rolando os dados">
-            <div class="dib absolute bottom-2 w-100 pb5 ph2">
-                <h1 class="primary--lighter self-center tc f_header f1">Estação geek sua luderia em Atibaia</h1>
+        <div class="relative flex flex-column items-center backgroundMain">
+            <div class="dib w-100 ph2 absolute top-capa">
+                <h1 class="primary--lighter tc f_header f1">Estação geek sua luderia em Atibaia</h1>
             </div>
-            <div class="absolute bottom-0 mb3 flex justify-around w-100 mw6">
+            <div class="mb3 flex justify-around w-100 mw6 absolute bottom-0">
                 <img class="h3 w3" src="IMG/icons/axes.png" alt="[Icone machados medieval]" title="Icone machados medieval">
                 <img class="h3 w3" src="IMG/icons/viking.png" alt="[Icone imagem viking]" title="Icone imagem viking">
                 <img class="h3 w3" src="IMG/icons/quiver.png" alt="[Icone arco e flecha medieval]" title="Icone arco e flecha medieval">
             </div>
         </div>
     </header>
+
     <section class="mb5 flex flex-column">
-        <!-- ENDERECO E TELEFONE -->
-        <article class="ph3">
-            <p class="f_body grayScale--regular mb0">R. Prof. Pedro de Vasconcelos, 73, Alvinópolis, Atibaia - SP</p>
-            <sub class="f_body grayScale--regular">Na rua atrás do Picanha da Tabua</sub>
-            <a class="" href="https://goo.gl/maps/PeMQaLP2vjy">
-                <svg class="v-mid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-                    xml:space="preserve" width="1.5rem" height="1.5rem">
-                    <g>
+        <div class="flex-l items-center pv4">
+            <!-- ENDERECO E TELEFONE -->
+            <article class="ph3 w-50-l">
+                <p class="f_body grayScale--regular mb0">R. Prof. Pedro de Vasconcelos, 73, Alvinópolis, Atibaia - SP</p>
+                <sub class="f_body grayScale--regular">Na rua atrás do Picanha da Tabua</sub>
+                <a class="" href="https://goo.gl/maps/PeMQaLP2vjy">
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                        xml:space="preserve" width="1.5rem" height="1.5rem">
                         <g>
-                            <path d="M256,0C153.755,0,70.573,83.182,70.573,185.426c0,126.888,165.939,313.167,173.004,321.035    c6.636,7.391,18.222,7.378,24.846,0c7.065-7.868,173.004-194.147,173.004-321.035C441.425,83.182,358.244,0,256,0z M256,278.719    c-51.442,0-93.292-41.851-93.292-93.293S204.559,92.134,256,92.134s93.291,41.851,93.291,93.293S307.441,278.719,256,278.719z"
-                                fill="#ef6e35" />
+                            <g>
+                                <path d="M256,0C153.755,0,70.573,83.182,70.573,185.426c0,126.888,165.939,313.167,173.004,321.035    c6.636,7.391,18.222,7.378,24.846,0c7.065-7.868,173.004-194.147,173.004-321.035C441.425,83.182,358.244,0,256,0z M256,278.719    c-51.442,0-93.292-41.851-93.292-93.293S204.559,92.134,256,92.134s93.291,41.851,93.291,93.293S307.441,278.719,256,278.719z"
+                                    fill="#ef6e35" />
+                            </g>
                         </g>
-                    </g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                </svg>
-            </a>
-            <p class="f_body grayScale--regular mb0">(11) 2427-8869</p>
-        </article>
-        <!-- HORARIOS DE FUNCIONAMENTO -->
-        <article class="flex justify-around mt5 ph3 w-100 mw6">
-            <div class="fl w-50">
-                <p class="f_body grayScale--regular separador_down ma0">Terça à Quinta</p>
-                <p class="f_body grayScale--regular separador_down mt2">Terça à Quinta</p>
-            </div>
-            <div class="fl w-50 tr">
-                <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
-                <p class="f_body grayScale--regular separador_down mt2">18:00 - 00:00</p>
-            </div>
-        </article>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                    </svg>
+                </a>
+                <p class="f_body grayScale--regular mb0">(11) 2427-8869</p>
+            </article>
+            <!-- HORARIOS DE FUNCIONAMENTO -->
+            <article class="flex justify-around mt5-m ph3 w-50-l">
+                <div class="fl w-50">
+                    <p class="f_body grayScale--regular separador_down ma0">Terça à Quinta</p>
+                    <p class="f_body grayScale--regular separador_down mt2">Terça à Quinta</p>
+                </div>
+                <div class="fl w-50 tr">
+                    <p class="f_body grayScale--regular separador_down ma0">18:00 - 00:00</p>
+                    <p class="f_body grayScale--regular separador_down mt2">18:00 - 00:00</p>
+                </div>
+            </article>
+        </div>
+
         <!-- PLANOS ESTACAO GEEK -->
         <article class="flex justify-around mt5">
             <div class="fl mw5 pa3">

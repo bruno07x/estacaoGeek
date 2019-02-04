@@ -3,3 +3,14 @@
 .eventosScale{height: 12em;}
 .jogosScale{height: 150px; width: 150px;}
 .rewardsScale{width: 350px;}
+.h-capa{max-height: 500px; height: 500px;}
+// POSITIONS
+.top-capa{
+   top:0%;
+   @media screen and (min-width: 600px) {
+      top: 40%;
+    }
+    @media screen and (min-width: 1000px) {
+      top: 50%;
+    }
+}
